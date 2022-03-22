@@ -1,25 +1,42 @@
 package easy;
 
-import javax.swing.JOptionPane;
+
 
 public class Exercicio05 {
-    public static void main(String[] args) {
-        int numero1,numero2,numero3;
-        int soma,subtração,multiplicação;
-        double média;
+  
+       public String numerosDigitados ( String numero01, String numero02, String numero03){
+           return " Você digitou os numeros" + (numero01 + numero02 + numero03);
 
-        numero1=Integer.parseInt(JOptionPane.showInputDialog("Digite numero 1"));
-        numero2=Integer.parseInt(JOptionPane.showInputDialog("Digite numero 2"));
-        numero3=Integer.parseInt(JOptionPane.showInputDialog("Digite numero 3"));
+       }
 
-        soma = numero1+numero2+numero3;
-        subtração = numero1-numero2-numero3;
-        multiplicação = numero1*numero2*numero3;
-        média = ((numero1+numero2+numero3)/3);
 
-        System.out.println("A soma dos numeros é " + soma);
-        System.out.println("A subtração dos numeros é " + subtração);
-        System.out.println("A multiplicação dos numeros é " + multiplicação);
-        System.out.println("A média dos numeros é " + média);
+      public String equacoes ( String soma, String Subtracao, String multipicacao){
+        return " Equaçoes são " + (soma + Subtracao + multipicacao);
+
+      }
+
+      public String media ( String numero01, String numero02, String numero03){
+       return " Media é " + numero01 + numero02 + numero03 ;
+
+      }
+
     }
-}
+        //int numero1,numero2,numero3;
+        //int soma,subtração,multiplicação;
+        //double média;
+
+       // numero1=Integer.parseInt(JOptionPane.showInputDialog("Digite numero 1"));
+      //  numero2=Integer.parseInt(JOptionPane.showInputDialog("Digite numero 2"));
+       // numero3=Integer.parseInt(JOptionPane.showInputDialog("Digite numero 3"));
+
+       // soma = numero1+numero2+numero3;
+       // subtração = numero1-numero2-numero3;
+       // multiplicação = numero1*numero2*numero3;
+       // média = ((numero1+numero2+numero3)/3);
+
+       // System.out.println("A soma dos numeros é " + soma);
+       // System.out.println("A subtração dos numeros é " + subtração);
+       // System.out.println("A multiplicação dos numeros é " + multiplicação);
+       // System.out.println("A média dos numeros é " + média);
+    
+
