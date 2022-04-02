@@ -6,7 +6,7 @@ public class ExecucaoEx07 {
      Exercicio07 execucao07 = new Exercicio07();
      
      
-    System.out.println(execucao07.calculaInss(1.000));
+    System.out.println(execucao07.calculaInss( 2.000));
     
     }
 }
