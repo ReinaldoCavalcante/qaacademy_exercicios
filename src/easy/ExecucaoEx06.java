@@ -1,6 +1,6 @@
 package easy;
 
-public class Execucao06 {
+public class ExecucaoEx06 {
     public static void main(String[] args) {
         
      Exercicio06  execucao06 = new Exercicio06();

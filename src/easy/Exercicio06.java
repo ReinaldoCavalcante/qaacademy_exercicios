@@ -7,17 +7,17 @@ public class Exercicio06 {
         double resultado;
         resultado = (nota1 + nota2) / 2;
         if (resultado > 5) {
-            return "Você está Aprovado! Parabéns!!!";}
+            return "Aprovado";}
 
             if (resultado < 5) {
-                return ("Você está Reprovado!");
+                return ("Reprovado");
             }
 
             if (resultado == 5) {
-                return ("Você está de Exame");
+                return ("Exame");
             }
 
-            return "Não foi possívl calcular sua nota";
+            return "Não foi possível calcular sua nota";
 
         }
     }

@@ -23,7 +23,7 @@ public class Exercicio05 {
         multiplicacao = primeiroNumero * segundoNumero * terceiroNumero;
         return multiplicacao;}
 
-
+        
 
         public int media(int soma) {
           int media;
