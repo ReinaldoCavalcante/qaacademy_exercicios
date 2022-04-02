@@ -4,23 +4,37 @@ package easy;
 
 public class Exercicio05 {
   
-       public String numerosDigitados ( String numero01, String numero02, String numero03){
-           return " Você digitou os numeros" + (numero01 + numero02 + numero03);
+  public int soma(int primeiroNumero, int segundoNumero, int terceiroNumero) {
+    int soma;
+    soma = primeiroNumero + segundoNumero + terceiroNumero;
+    return soma;}
 
-       }
+
+    
+    public int subtracao(int primeiroNumero, int segundoNumero, int terceiroNumero) {
+      int subtracao;
+      subtracao = primeiroNumero - segundoNumero - terceiroNumero;
+      return subtracao;}
 
 
-      public String equacoes ( String soma, String Subtracao, String multipicacao){
-        return " Equaçoes são " + (soma + Subtracao + multipicacao);
+
+      public int multiplicacao(int primeiroNumero, int segundoNumero, int terceiroNumero) {
+        int multiplicacao;
+        multiplicacao = primeiroNumero * segundoNumero * terceiroNumero;
+        return multiplicacao;}
+
+
+
+        public int media(int soma) {
+          int media;
+          media = soma / 3;
+          return media;
+        }
+
 
       }
 
-      public String media ( String numero01, String numero02, String numero03){
-       return " Media é " + numero01 + numero02 + numero03 ;
 
-      }
-
-    }
         //int numero1,numero2,numero3;
         //int soma,subtração,multiplicação;
         //double média;
