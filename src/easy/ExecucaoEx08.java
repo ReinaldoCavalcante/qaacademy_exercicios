@@ -5,7 +5,7 @@ public class ExecucaoEx08 {
         
      Exercicio08 execucao08 = new Exercicio08();
 
-     System.out.println(execucao08.calcularImposto(3.000));
+     System.out.println(execucao08.calcularImposto(3000.00));
 
 
     }
