@@ -1,20 +1,24 @@
 package easy;
 
-import javax.swing.JOptionPane;
+
 
 public class Exercicio10 {
-    public static void main(String[] args) {
-        double investimento,taxaJuros,valorJuros,valorTotal;
-      
-     investimento=Integer.parseInt(JOptionPane.showInputDialog("investimento"));
-     taxaJuros = 0.05 * 10;
-     valorJuros = investimento * taxaJuros;
-     valorTotal = valorJuros + investimento;
+    public double calcularInvestimento (double valorInvestimento , double taxaJuros){
+       
+        double valorJuros = 0 ;
+        int i = 1;
 
-     System.out.println("Você Ivestiu " + investimento);
-     System.out.println("Rendeu " + valorJuros +" de juros");
-     System.out.println("O valor total são " + valorTotal);
+        while ( i<=10){
+            valorJuros = (valorInvestimento + taxaJuros)+ valorJuros;
+            i = i + 1; // i++
+        }
+
+        return valorJuros;
+
+        }
+
 
 
     }
-}
+    
+    
