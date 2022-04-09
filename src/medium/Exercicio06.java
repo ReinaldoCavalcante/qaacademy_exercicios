@@ -1,21 +1,20 @@
 package medium;
 
-import javax.swing.JOptionPane;
+
 
 public class Exercicio06 {
-    public static void main(String[] args) {
 
-        int fatorial, i;
+    public int calculaFatorial(int fatorial) {
 
-        fatorial = Integer.parseInt(JOptionPane.showInputDialog(" Digite um Numero "));
+        int i;
         i = fatorial;
-
         while (i > 1) {
+
             fatorial = fatorial * (i - 1);
             i--;
-        }
-
-        System.out.println("O fatorial do número digitado é " + fatorial);
-
+        } return fatorial;
     }
+
+
+
 }
