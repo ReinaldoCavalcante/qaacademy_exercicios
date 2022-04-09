@@ -1,9 +1,9 @@
 package medium;
 
 public class Exercicio03 {
-    public static void main(String[] args) {
-
-        double i = 0, soma = 0;
+    
+   public int somaAteMil() {
+    int i=0  , soma = 0 ;
 
         while (i <= 1000) {
             soma = i + soma;
@@ -12,13 +12,11 @@ public class Exercicio03 {
                 break;
             }
 
-            System.out.println(soma);
-
             i++;
 
         }
 
-        System.out.println(soma);
+        return soma;
 
     }
 }
