@@ -1,6 +1,6 @@
 package medium;
 
-public class ExercicioMedium05 {
+public class ExecucaoMedium05 {
     public static void main(String[] args) {
         
         int[] vetorNumeros = { 5, 4, 8, 1, 2 }; 
