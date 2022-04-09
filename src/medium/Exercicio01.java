@@ -1,23 +1,19 @@
 package medium;
 
 public class Exercicio01 {
-    public static void main(String[] args) {
-        
-  int i = 1 ;
 
-  while (i <= 100) {
-     
-    if (i % 2 == 0) {
-      System.out.println (" O numero " + i + " é par ");
-    }
-    
-        
-    else{System.out.println (" O numero " + i + " é impar ");}
-   
-   i++; 
-
-  }
-        
-
+  public static void exibirVetor(String[] vetorParaImprimir) {
+    int i = 0;
+    while (i < vetorParaImprimir.length) {
+        System.out.println(vetorParaImprimir[i]);
+        i++;
     }
 }
+
+  public String[] verificarNumerosParImpar() {
+    return null;
+  }
+
+
+    }
+
