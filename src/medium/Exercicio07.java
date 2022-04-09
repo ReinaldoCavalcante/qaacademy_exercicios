@@ -1,10 +1,10 @@
 package medium;
 
 public class Exercicio07 {
-    public static void main(String[] args) {
-        
-     String[] vetorMeses;
-     vetorMeses = new String [12];
+    
+  public String[] preencheVetorMeses() {
+    String[] vetorMeses;
+    vetorMeses = new String[12];
 
      vetorMeses[0] = " Janeiro";
      vetorMeses[1] = " Fevereiro";
@@ -18,15 +18,11 @@ public class Exercicio07 {
      vetorMeses[9] = " Outubro";
      vetorMeses[10] = " Novembro";
      vetorMeses[11] = " Dezembro";
-
-
-
-    int i = 0;
-    while (i<=11) {
-      System.out.println( vetorMeses[i]);
-      i++;
+     
+     return vetorMeses;
     }
+    
 
 
     }
-}
+
